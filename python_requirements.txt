@@ -1,0 +1,16 @@
+click
+filelock
+jax
+jaxlib
+keras
+Keras-Preprocessing
+numpy
+pandas
+Pillow
+scikit-learn
+scipy
+seaborn
+torch
+torchvision
+tqdm
+wandb
