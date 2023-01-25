@@ -1,0 +1,27 @@
+{
+    "n_repeat": 20,
+    "data": {
+        "name": "demand",
+        "n_sample": 1000,
+        "n_extra_W": 0,
+        "n_extra_Z": 0,
+        "W_noise": 1,
+        "Z_noise": 1
+    },
+    "model": {
+        "name": "nmmr",
+        "n_epochs": 3000,
+        "batch_size": 1000,
+        "learning_rate": 1e-3,
+        "weight_decay": 1e-6,
+        "loss_name": "U_statistic",
+        "l2_lambda": 0,
+        "network_depth": 4,
+        "network_width": 80
+    },
+    "analysis": {
+        "compute_statistics": true,
+        "log_metrics": false,
+        "make_plots": false
+    }
+}

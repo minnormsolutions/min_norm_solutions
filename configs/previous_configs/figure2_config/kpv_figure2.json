@@ -1,0 +1,19 @@
+{
+    "n_repeat": 20,
+    "data": {
+        "name": "demand",
+        "n_sample": [1000, 5000, 10000, 50000],
+        "preprocess": "Identity"
+    },
+    "model": {
+        "name": "kpv",
+        "lam1": 1e-3,
+        "lam2": 1e-3,
+        "split_ratio": 0.5,
+        "scale": 0.5,
+        "data_scaling": true
+    },
+    "analysis": {
+        "compute_statistics": true
+    }
+}

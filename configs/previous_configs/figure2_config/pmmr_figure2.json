@@ -1,0 +1,17 @@
+{
+    "n_repeat": 20,
+    "data": {
+        "name": "demand",
+        "n_sample": [1000, 5000, 10000, 50000]
+    },
+    "model": {
+        "name": "pmmr",
+        "lam1": 1e-2,
+        "lam2": 1e-2,
+        "scale": 0.5,
+        "data_scaling": true
+    },
+    "analysis": {
+        "compute_statistics": true
+    }
+}

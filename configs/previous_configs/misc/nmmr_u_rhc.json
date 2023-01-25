@@ -1,0 +1,21 @@
+{
+  "n_repeat": 20,
+  "data": {
+    "name": "rhc",
+    "use_all_X": true},
+  "model": {
+    "name": "nmmr",
+    "n_epochs": 150,
+    "batch_size": 2500,
+    "learning_rate": 3e-3,
+    "weight_decay": [1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1, 1],
+    "loss_name": "U_statistic",
+    "l2_lambda": 0,
+    "network_depth": 4,
+    "network_width": 80
+  },
+  "analysis": {
+      "compute_statistics": true,
+      "log_metrics": true
+  }
+}

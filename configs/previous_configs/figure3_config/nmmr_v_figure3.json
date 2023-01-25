@@ -1,0 +1,25 @@
+{
+    "n_repeat": 20,
+    "data": {
+        "name": "dsprite",
+        "n_sample": [1000, 5000, 7500],
+        "val_sample": 1000
+    },
+    "model": {
+        "name": "nmmr",
+        "n_epochs": 500,
+        "batch_size": 256,
+        "val_batch_size": 200,
+        "kernel_batch_size": 10,
+        "learning_rate": 3e-05,
+        "weight_decay": 3e-07,
+        "loss_name": "V_statistic",
+        "cnn_type": "modular",
+        "l2_lambda": 0,
+        "fc_factor": 0.5
+    },
+    "analysis": {
+        "compute_statistics": true,
+        "log_metrics": false
+    }
+}
