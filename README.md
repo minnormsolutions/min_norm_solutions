@@ -1,4 +1,4 @@
-# Regularied NMMR (rNMMR) Proximal Inference
+# Regularized NMMR (rNMMR) Proximal Inference
 A regularized extension to neural maximum moment restriction (NMMR) for proximal inference.
 
 Fork from [Kompa et al., 2022](https://github.com/beamlab-hsph/Neural-Moment-Matching-Regression). 
